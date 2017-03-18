@@ -1,0 +1,26 @@
+@import 'variables.scss';
+@import 'reset.scss';
+
+.side-nav {
+  position: absolute;
+  top: 0;
+}
+
+.hide-menu {
+  left: -300px;
+  width: 300px;
+  height: 100vh;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.show-menu {
+  left: 0;
+  transition-property: all;
+  transition-duration: 1s;
+  width: 300px;
+  height: 100vh;
+  color: black;
+  visibility: visible;
+  background-color: $color1;
+}
