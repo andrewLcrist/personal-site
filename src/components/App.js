@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { SideNav } from './SideNav'
 import Header from './Header'
 import Projects from './Projects'
-import './styles/App.css';
+import '../styles/App.css';
 
 class App extends Component {
   constructor() {
