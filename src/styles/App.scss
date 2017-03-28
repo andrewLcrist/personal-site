@@ -1,75 +1,18 @@
 @import 'variables.scss';
 @import 'reset.scss';
 
-.header {
-  display: flex;
-  vertical-align: middle;
-  background: url('../images/background.jpg') no-repeat center center / cover;
-  width: 100%;
-  height: 90vh;
-}
-
 .header-content {
   display: flex;
-  background-color: rgba(255, 255, 255, 0.25);
-  width: 100%;
-  height: 100%;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-tags{
+  display: flex;
+  flex-grow: 1;
+  width: auto;
+  background-color: magenta;
+  height: 50px;
   justify-content: center;
-}
-
-.header-text {
-  max-width: 50%;
-  text-align: center;
-}
-
-.side-nav {
-  position: absolute;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: black;
-  opacity: .5;
-  transition-property: all;
-  transition-duration: 1s;
-}
-
-.no-side-nav {
-  position: absolute;
-  visibility: hidden;
-  left: 50%;
-  height: 100vh;
-  transition-property: all;
-  transition-duration: 1s;
-}
-
-.hide-menu {
-  position: absolute;
-  left: -300px;
-  top: 0;
-  width: 300px;
-  height: 100vh;
-  transition-property: all;
-  transition-duration: 1s;
-}
-
-.show-menu {
-  position: absolute;
-  left: 0;
-  top: 0;
-  transition-property: all;
-  transition-duration: 1s;
-  width: 300px;
-  height: 100vh;
-  color: black;
-  visibility: visible;
-  background-color: $color1;
-  z-index: 1;
-}
-
-@media (max-width: 950px) {
-  .header {
-    width: 100%;
-    height: 30vh;
-  }
+  align-items: center;
 }
