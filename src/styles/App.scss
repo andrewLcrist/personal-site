@@ -20,6 +20,11 @@ body {
   height: 50px;
   justify-content: center;
   align-items: center;
+  &:hover{
+    background-color: blue;
+    cursor: pointer;
+    transition-duration: .5s;
+  }
 }
 
 .coming-soon-container {

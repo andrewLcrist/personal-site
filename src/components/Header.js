@@ -1,23 +1,21 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import { Home } from './Home'
+import { Projects } from './Projects'
 
-export default class Header extends React.Component {
-  constructor () {
-    super ()
-    this.state = {
-    }
-  }
+export const Header = () => {
+  return (
+  <Router className="header">
+    <div>
+    <ul className="header-content">
+      <li className="header-tags"><Link to="/">HELLO</Link></li>
+      <li className="header-tags"><Link to="/projects">Projects</Link></li>
+    </ul>
 
-  render () {
-    return (
-      <div className="header">
-        <ul className="header-content">
-          <li className="header-tags">HELLO</li>
-          <li className="header-tags">INTRO</li>
-          <li className="header-tags">PROJECTS</li>
-          <li className="header-tags">ABOUT</li>
-          <li className="header-tags">CONTACT</li>
-        </ul>
-      </div>
-    )
-  }
+    <Route exact path="/" component={Home}/>
+    <Route exact path="/projects" component={Projects}/>
+    </div>
+
+  </Router>
+)
 }

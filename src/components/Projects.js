@@ -1,15 +1,7 @@
 import React from 'react';
 
-export default class Header extends React.Component {
-  constructor () {
-    super ()
-    this.state = {
-
-    }
-  }
-
-  render () {
-    return (
+export const Projects = () => {
+  return (
       <div className="projects">
         <p>Cookie-cutter shark tiger shovelnose catfish; flagfish marlin oarfish masu salmon long-finned char, "glass catfish sailfish tarpon crappie sabertooth fish." Black triggerfish. European chub pufferfish Atlantic silverside sturgeon sockeye salmon seahorse northern sea robin greeneye requiem shark Old World rivuline Moses sole. Tompot blenny whitetip reef shark Owens pupfish torrent fish Old World knifefish.
 
@@ -22,5 +14,4 @@ Peacock flounder snubnose eel coelacanth, long-finned char, "Jack Dempsey; spiny
 Lanternfish, "mako shark Australian herring," cisco pike conger rough scad grunt bonito, Chinook salmon! Ghost knifefish soldierfish jewfish, mullet cat shark guitarfish surf sardine nase bonnetmouth glass catfish? Rainbow trout slimehead sábalo cuskfish Blind shark barred danio, trumpetfish, prowfish queen danio croaker southern hake. Cutlassfish, Rainbow trout flathead duckbill eel spaghetti eel tope; weeverfish coelacanth Antarctic icefish blue triggerfish. Moonfish spiny dwarf catfish mudminnow; Atlantic saury yellowtail amberjack, tilapia tiger shovelnose catfish.</p>
       </div>
     )
-  }
 }
