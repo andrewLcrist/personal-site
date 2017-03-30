@@ -40,3 +40,24 @@ body {
 .coming-soon {
   font-size: 50px;
 }
+
+.footer-tags {
+  display: flex;
+  flex-grow: 1;
+  width: auto;
+  background-color: magenta;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  &:hover{
+    background-color: blue;
+    cursor: pointer;
+    transition-duration: .5s;
+  }
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
