@@ -12,14 +12,19 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
-.app {
+.content-container {
   background-color: magenta;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+  overflow: scroll;
 }
 
 .header-tags{
