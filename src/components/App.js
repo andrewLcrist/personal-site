@@ -19,7 +19,6 @@ export default class App extends Component {
               <Route exact path="/projects" component={Projects}/>
               <Route exact path="/contact" component={Contact}/>
             </div>
-            <Footer />
         </div>
       </Router>
     );
