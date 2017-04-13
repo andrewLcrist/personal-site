@@ -35,6 +35,7 @@ body {
   height: 50px;
   justify-content: center;
   align-items: center;
+  transition-duration: .5s;
   &:hover{
     background-color: blue;
     cursor: pointer;
@@ -53,32 +54,6 @@ body {
 
 .coming-soon {
   font-size: 50px;
-}
-
-.footer-tags {
-  display: flex;
-  flex-grow: 1;
-  width: auto;
-  background-color: #fff;
-  height: 50px;
-  justify-content: center;
-  align-items: center;
-  &:hover{
-    background-color: blue;
-    cursor: pointer;
-    transition-duration: .5s;
-    color: #fff;
-  }
-}
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  position: relative;
-  bottom: 0;
-  right: 0;
-  left: 0;
 }
 
 .projects-container {
