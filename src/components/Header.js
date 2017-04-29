@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 export const Header = () => {
   return (
-    <div>
+    <div className="header-container">
       <ul className="header-content">
         <Link title="Hello" to="/" className="header-tags"><li>HELLO</li></Link>
         <Link title="Projects" to="/projects" className="header-tags"><li>Projects</li></Link>
