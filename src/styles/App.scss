@@ -2,20 +2,29 @@
 @import 'reset.scss';
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,400');
 
-body {
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.app {
   font-family: 'Rubik';
   width: 80vw;
   margin: auto;
+}
+
+.header-container {
+  position: fixed;
+  width: 80vw;
 }
 
 .header-content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
 }
 
 .content-container {
@@ -24,7 +33,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   overflow: scroll;
-  margin-top: 50px;
 }
 
 .header-tags{
@@ -57,6 +65,10 @@ body {
 }
 
 .projects-container {
-  margin: auto;
+  margin: 50px auto;
   width: 60vw;
+}
+
+.project-container {
+  margin: 5px;
 }
