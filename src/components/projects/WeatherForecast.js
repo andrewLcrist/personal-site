@@ -3,7 +3,7 @@ import React from 'react';
 export const WeatherForecast = () => {
   return (
       <div className="project-container">
-        <h1>Weather Forecast</h1>
+        <h1 >Weather Forecast</h1>
         <a href="https://www.google.com" target="_blank"><h3>View on GitHub</h3></a>
         <a href="https://www.google.com" target="_blank"><h3>View Production</h3></a>
         <h2>Project Overview</h2>
