@@ -5,7 +5,7 @@ import { WeatherForecast } from './WeatherForecast'
 
 export const Projects = () => {
   return (
-      <div className="projects-container">
+      <div className="body-container">
         <MovieKeeper />
         <PennyWise />
         <WeatherForecast />
