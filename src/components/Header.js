@@ -25,7 +25,7 @@ export default class Header extends React.Component {
           >{this.state.projects}
         </Link>
         <Link
-          onMouseOver={() => this.setState({ contact: this.state.contact.toUpperCase()})} 
+          onMouseOver={() => this.setState({ contact: this.state.contact.toUpperCase()})}
           onMouseOut={() => this.setState({ contact: this.state.contact.toLowerCase()})}
           title="Contact"
           to="/contact"
