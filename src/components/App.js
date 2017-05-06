@@ -14,11 +14,9 @@ export default class App extends Component {
       <Router>
         <div className="app">
             <Header />
-            <div className="content-container">
               <Route exact path="/home" component={Home}/>
               <Route exact path="/projects" component={Projects}/>
               <Route exact path="/contact" component={Contact}/>
-            </div>
         </div>
       </Router>
     );
